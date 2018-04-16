@@ -11,10 +11,15 @@ function onReady(){
         clickCount++;
         console.log(clickCount);
         updateDomCount();
-        $('.ducati').append('<p>Test</p>');
+        //$('.ducati').append('<p>Test</p>');
+        
+
 
     function updateDomCount(){
         $('#genButtonCount').text(clickCount);
+        $('.ducati').append('<div>Test</div>');
+        $('.bultaco').append('<div></div>');
+        $('#motoGuzzi').append('<div></div>');
     }
 
     }  
