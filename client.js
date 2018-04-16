@@ -11,6 +11,7 @@ function onReady(){
         clickCount++;
         console.log(clickCount);
         updateDomCount();
+        $('.ducati').append('<p>Test</p>');
 
     function updateDomCount(){
         $('#genButtonCount').text(clickCount);
